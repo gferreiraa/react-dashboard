@@ -1,6 +1,8 @@
 import React from 'react';
 import emoji from '../../utils/emoji';
 
+import Toggle from '../Toggle' 
+
 import { Container, Profile, Welcome, UserName } from './styles';
 
 const MainHeader: React.FC = () => {
@@ -12,10 +14,9 @@ const MainHeader: React.FC = () => {
 
   return(
     <Container>
-      <h1>Toogle</h1>
+      <Toggle/>
       <Profile>
-        <Welcome>Olá, {emojis} </Welcome>
-        <UserName>User</UserName>
+        <Welcome>Olá, {' '} {emojis} <UserName>User</UserName> </Welcome>
       </Profile>
     </Container>
   );

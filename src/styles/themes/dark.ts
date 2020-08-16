@@ -7,11 +7,11 @@ export default {
     tertiary: '#313862',
 
     white: '#fff',
-    black: '000',
+    black: '#000',
     grey: '#BFBFBF',
 
     success: '#4E41F0',
-    info: 'F9331B',
+    info: '#F7931B',
     warning: '#E44C4E'
   }
 }
