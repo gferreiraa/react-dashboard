@@ -1,9 +1,13 @@
-import React from 'react';
+import React from "react";
+import { Container } from "./styles";
+import ContentHeader from "../../components/ContentHeader";
 
-const Dashboard: React.FC =  () => {
+const Dashboard: React.FC = () => {
   return (
-    <h1>Hello World Guys</h1>
+    <Container>
+      <ContentHeader />
+    </Container>
   );
-}
+};
 
 export default Dashboard;
