@@ -6,8 +6,8 @@ export default {
     secondary: '#FFFFFF',
     tertiary: '#F5F5F5',
 
-    white: '#000',
-    black: '#FFF ',
+    white: '#ffffff',
+    black: '#000000',
     grey: '#BFBFBF',
 
     success: '#03BB85',
